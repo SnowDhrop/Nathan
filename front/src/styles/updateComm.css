@@ -1,0 +1,19 @@
+.comm_update_show_button, .comm_update_button_cancel{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border-color: #5584AC;
+}
+
+.update_comm_textarea{
+    width: auto;
+}
+
+.update_comm_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}

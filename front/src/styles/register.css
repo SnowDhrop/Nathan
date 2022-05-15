@@ -1,0 +1,18 @@
+.register_form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    color: #383a3d;
+    font-size: 15px;
+}
+
+.error{
+    font-size: 15px !important;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}

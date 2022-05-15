@@ -1,0 +1,93 @@
+
+.log_logo{
+    width: 50%;
+    margin: 0 px auto;
+    max-width: 600px;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.log_title{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #5584AC;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px){
+    .log_title{
+        font-size: 18px;
+    }
+}
+
+.log_bloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.log_content{
+    background-color: #DFDFDE;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+    width: 80%;
+    max-width: 700px;
+    min-width: 310px;
+}
+
+.log_title_register, .log_title_login{
+    padding: 30px 35px;
+    width: 50%;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+}
+
+@media screen and (max-width: 425px){
+    .log_title_register, .log_title_login{
+        padding: 30px 0px;
+    }
+}
+
+.log_title_register{
+    border-right: 2px solid #DFDFDE;
+}
+
+.log_title_register_active{
+    background-color: #6b9ec9;
+}
+
+.log_title_login_active{
+    background-color: #6b9ec9;
+}
+
+.log_login, .log_register{
+    margin: 30px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.log_submit{
+    color: black;
+    width: min-content;
+    margin: auto;
+    background-color: #6b9ec9;
+}
+
+input{
+    color: black;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    font-size: 17px;
+}
+

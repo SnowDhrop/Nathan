@@ -1,0 +1,19 @@
+#form_content_update{
+    width: 95%;
+}
+
+.update_form{
+    margin-top : 20px;
+}
+
+.button_update_post{
+    border-radius: 20px;
+    border-color: #5584AC;
+    margin-bottom: 10px;
+}
+
+.post_update_buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px;
+}

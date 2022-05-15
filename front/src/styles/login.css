@@ -1,0 +1,9 @@
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.error{
+    color: red;
+    font-size: 13px
+}

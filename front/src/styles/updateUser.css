@@ -1,0 +1,9 @@
+.user_update {
+    display: flex;
+    flex-direction: column;
+}
+
+.user_update_bloc{
+    display: flex;
+    justify-content: center;
+}
