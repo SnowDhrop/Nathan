@@ -12,12 +12,23 @@ Configuration:
  - Environnement: Visual Studio Code
  - console: Bash
  
+ // Intro //
+ 
+ Téléchargez le dossier du projet en .zip
+ 
+ Extrayez les fichiers dans un dossier sur votre serveur local.
+ 
+ Si une fenêtre windows s'affiche lors du transfert, cliquez sur "Remplacer les fichiers dans la destination".
  
 /// I. Importation de la base de données ///
 
-1°/ Ouvrir PhpMyAdmin, créer une nouvelle base de données nommée "groupomania"
+1°/ Ouvrez PhpMyAdmin et créez une nouvelle base de données nommée "groupomania"
 
-2°/ Cliquer sur "importer" et importer le fichier "groupomania.sql" situé dans le dossier "db" du projet.
+2°/ Cliquez sur "importer" et sélectionnez le fichier "groupomania.sql" situé dans le dossier "db" du projet.
+
+3°/ Les identifiants utilisés pour se connecter à la base de données sont "root" sans mot de passe.
+
+-> Si vous n'avez pas les mêmes informations de connection, allez dans back/config/config.json, puis dans "development", et changez les valeurs des clés "username" et "password" pour qu'elles correspondent à vos identifiants.
 
 /// II. Installation des modules et dépendances ///
 
