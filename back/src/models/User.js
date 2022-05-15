@@ -21,8 +21,7 @@ module.exports = sequelize.define('User', {
         unique: true
     },
     isAdmin: {
-        type: Sequelize.BOOLEAN,
-        allowNull: false
+        type: Sequelize.BOOLEAN
     },
     password: {
         type: Sequelize.STRING(),
