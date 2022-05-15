@@ -69,7 +69,7 @@ const DisplayComm = ({ post, reload, setReload, isAdmin }) => {
                     </div>
 
 
-                    {(cookies.userId == userId || isAdmin === 1) &&
+                    {(cookies.userId == userId || isAdmin === true) &&
                         <div className='comm_buttons'>
                             <UpdateComm
                                 reload={reload}
