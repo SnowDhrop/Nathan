@@ -173,7 +173,7 @@ const DisplayPosts = ({ reload, setReload, posts, setPosts }) => {
                             </div>
                         </ul>
                         <div className='post_buttons'>
-                            {(posts[i].userId == cookies.userId || isAdmin === true) &&
+                            {(posts[i].userId == cookies.userId || isAdmin === 1) &&
                                 <UpdatePost
                                     reload={reload}
                                     setReload={setReload}
@@ -183,7 +183,7 @@ const DisplayPosts = ({ reload, setReload, posts, setPosts }) => {
                                     image={image}
                                 />}
 
-                            {(posts[i].userId == cookies.userId || isAdmin === true) &&
+                            {(posts[i].userId == cookies.userId || isAdmin === 1) &&
                                 <DeletePost
                                     reload={reload}
                                     setReload={setReload}
