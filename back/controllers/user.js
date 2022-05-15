@@ -95,7 +95,8 @@ exports.getOne = (req, res, next) => {
 exports.update = (req, res, next) => {
     User.update({ 
         firstName: req.body.firstName,
-        lastName: req.body.lastName
+        lastName: req.body.lastName,
+        email: req.body.email
     }, {
         where: { id: req.params.id }
     }) 
