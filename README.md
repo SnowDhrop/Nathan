@@ -19,3 +19,4 @@ Création du front/back d'un réseau social.
 **Sécurité**  
 - Génération de token
 - Vérification de l'id d'un utilisateur lors d'opérations sensibles (modifications/suppression du profil, modification/suppression de post/commentaire)
+- Sanitization et validation de toutes les données envoyées par le front
